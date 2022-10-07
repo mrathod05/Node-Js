@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejs Prac</title>
+</head>
+<body>
+    <%- include('Common/Header') %>
+    <h1 style="color: yellowgreen">Welcom <%=user.name %> </h1>
+    <h1 style="color: red">Welcom <%=user.email %></h1>
+    <h1 style="color:yellow">Welcom <%=user.city %></h1>
+    <ul style="color: brown">
+        <% user.skills.forEach((items)=>{ %>
+                <li><%= items%></li>
+        <% }) %>
+    </ul>
+</body>
