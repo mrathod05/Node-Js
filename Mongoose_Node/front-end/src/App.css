@@ -1,0 +1,253 @@
+body{
+  background-image: url(./Components/ProductImg/Bgimage.jpeg);
+  margin: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Arial, Helvetica, sans-serif
+}
+
+nav.primary{
+display: flex;
+position: sticky;
+top: 0;
+width: 100%;
+overflow: hidden;
+
+}
+nav.primary a{
+padding: 10px;
+font-size: larger;
+color: white;
+text-decoration: none;
+}
+
+.primary a:hover,
+.primary a:active{
+  color: rgb(219, 236, 236);
+}
+/*.primary a:active{
+  color: black;
+  background-color: rgba(37, 177, 196, 0.616);
+} */
+
+.Footer{
+  position: absolute;
+  background-color: darksalmon;
+  height: 60px;
+  width: 100%;
+  margin-bottom: 0%;
+  bottom: 0%;
+  text-align: left;
+}
+
+.signupfrom{
+  position: absolute;
+  background-color: rgba(30,39,39,0.3);
+  margin-top: 5%;
+  margin-left: 40%;
+  height: 275px;
+  width: 20%;
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: 0px 5px 30px black;
+  color: azure;
+}
+.signupfrom:hover{
+  box-shadow: 0px 5px 30px white;
+}
+.signupfrom input{
+  background-color: transparent;
+  border-bottom: 1px solid whitesmoke;
+  color: white;
+}
+.signupfrom:placeholder{
+  color: white;
+}
+.AddProductform{
+  position: absolute;
+  background-color: rgba(30,39,39,0.3);
+  margin-top: 5%;
+  margin-left: 40%;
+  height: 315px;
+  width: 25%;
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 30px black;
+  color: azure;
+}
+.AddProductform::placeholder{
+  color: white;
+}
+.AddProductform input{
+  background-color: transparent;
+  border-top: hidden;
+  border-left: hidden;
+  border-right: hidden;
+  outline: none;
+  border-bottom: 1px solid whitesmoke;
+  color: white;
+  margin-left: 25px;
+  margin-bottom: 10px;
+  height: 30px;
+  padding: 10px 15px;
+  margin-top: 5px;
+}
+
+
+#ApH2{
+  display: flex;
+  margin-top: 15px;
+  margin-left:65px;
+  margin-bottom: 15px;
+}
+#Apbtn{
+  display: flex;
+  margin-top: 15px;
+  margin-left:105px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: white;
+  outline: none;
+}
+
+
+.UProductform{
+  position: absolute;
+  background-color: rgba(30,39,39,0.3);
+  margin-top: 5%;
+  margin-left: 40%;
+  height: 315px;
+  width: 25%;
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 30px black;
+  color: azure;
+}
+.UProductform::placeholder{
+  color: white;
+}
+.UProductform input{
+  background-color: transparent;
+  border-top: hidden;
+  border-left: hidden;
+  border-right: hidden;
+  outline: none;
+  border-bottom: 1px solid whitesmoke;
+  color: white;
+  margin-left: 25px;
+  margin-bottom: 10px;
+  height: 30px;
+  padding: 10px 15px;
+  margin-top: 5px;
+}
+
+
+#UpH2{
+  display: flex;
+  margin-top: 15px;
+  margin-left:65px;
+  margin-bottom: 15px;
+}
+#Upbtn{
+  display: flex;
+  margin-top: 15px;
+  margin-left:105px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: white;
+  outline: none;
+}
+
+
+.inputsignup{
+  display: block;
+  margin-top: 15px;
+  margin-left: 15px;
+  margin-bottom: 15px;
+  width: 225px;
+  height: 30px;
+  border-radius: 3px;
+  background-color: transparent;
+  border: 2px transparent;
+  border-style: double;
+  color: rgb(250, 250, 250);
+}
+#inputsignupbtn{
+  margin-left: 85px;
+  margin-top: 8px;
+  margin-bottom: 3px;
+  height: 30px;
+  color: white;
+  background-color:rgb(27, 206, 57);
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+#gotosignup{
+  margin-left: 15px;
+  height: 25px;
+}
+
+.signupdataname{
+  justify-content: right;
+  text-align: right;
+  margin-top: 10px;
+  margin-left: 50px;
+  height: 25px;
+}
+.logo{
+  width: 54px;
+  height: 40px;
+  border-radius: 15px;
+  border: 2px solid black
+}
+
+.required{
+  color: red;
+  font-size: 12px;
+  display: block;
+  margin-top: -10px;
+  margin-left: 15px;
+}
+
+.Card-P{
+  margin:0%;
+  margin-top: 0%;
+  margin-left: 15%;
+  text-align: center;
+}
+
+#btn-P{
+  margin-right: 5px;
+  height: 33px;
+}
+
+.searchbar{
+  margin-top: 50px;
+  width: 25%;
+  margin-left: 30%;
+  padding-left: 10px;
+  border-radius: 5px;
+  border: none;
+  color: black;
+}
+.searchbar::placeholder{
+  color: black;
+}
+
+.header{
+  margin-left: 80px;
+}
+.Card{
+  background-color: whitesmoke;
+  border-radius: 15px;
+  padding: 5px;
+  border: 2px solid black;
+}
+
+#imgg{
+  height: 50px;
+  width: 50px;
+}
